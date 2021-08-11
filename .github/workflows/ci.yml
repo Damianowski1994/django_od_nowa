@@ -44,7 +44,6 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
           image: damianowski19/gitactions
-          tag: latest
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
