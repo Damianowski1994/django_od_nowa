@@ -33,6 +33,8 @@ ALLOWED_HOSTS = ["*"]
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
+PORT = "8001"
+
 # Application definition
 
 INSTALLED_APPS = [
