@@ -13,4 +13,4 @@ EXPOSE 8000
 
 # CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000"]
 # CMD [ "python", "manage.py", "runserver"]
-CMD gunicorn loan_app.wsgi:application --log-file -
+CMD gunicorn od_nowa.wsgi:application --log-file -
