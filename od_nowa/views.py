@@ -8,5 +8,5 @@
 from django.http.response import HttpResponse
 
 
-def index(request):
+def test(request):
     return HttpResponse("siema siema byku!!!")
